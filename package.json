@@ -1,0 +1,46 @@
+{
+  "name": "@flowbuild/test-core",
+  "version": "1.0.0",
+  "description": "Core library with testing functionalities for flowbuild",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint ./src --ext .js --max-warnings=0",
+    "lint:fix": "eslint ./src --ext .js --max-warnings=0 --fix",
+    "get-version": "echo $npm_package_version",
+    "release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flow-build/test-core.git"
+  },
+  "keywords": [
+    "tests",
+    "paths",
+    "processes",
+    "blueprints"
+  ],
+  "author": "Pedro Assis",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/flow-build/test-core/issues"
+  },
+  "homepage": "https://github.com/flow-build/test-core#readme",
+  "dependencies": {
+    "cytoscape": "3.22.1",
+    "cytoscape-all-paths": "0.1.0",
+    "lodash": "4.17.21"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/npm": "9.0.1",
+    "conventional-changelog-conventionalcommits": "5.0.0",
+    "eslint": "8.23.0",
+    "jest": "29.0.2",
+    "semantic-release": "19.0.5"
+  }
+}
