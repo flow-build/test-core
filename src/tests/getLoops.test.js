@@ -29,26 +29,26 @@ describe('Get Loops tests', () => {
   test('get averageBP loops', () => {
     const allLoops = getLoops(averageBP);
     expect(allLoops.totalLoops).toEqual(1);
-    expect(allLoops.loops[0]).toEqual('WAIT -> GET-STATUS');
+    expect(allLoops.loops[0]).toEqual('WAIT -> GET-SCHEDULE');
   });
   
   test('get loopSimpleBP loops', () => {
     const allLoops = getLoops(loopSimpleBP);
     expect(allLoops.totalLoops).toEqual(1);
-    expect(allLoops.loops[0]).toEqual('CHECK-USER-ACTION -> USER-VIEW');
+    expect(allLoops.loops[0]).toEqual('CHECK-USER-ACTIVITY -> USER-ACTIVITY');
   });
      
   test('get loopMediumBP loops', () => {
     const allLoops = getLoops(loopMediumBP);
     expect(allLoops.totalLoops).toEqual(1);
-    expect(allLoops.loops[0]).toEqual('TERMS-CONDITIONS-STATUS -> SHOW-TERMS-ACCEPTANCE-MODAL');
+    expect(allLoops.loops[0]).toEqual('CHECK-SAVE-INFO-RESPONSE -> NOTIFY-INFO-NOT-FOUND');
   });
    
   test('get loopMultipleBP loops', () => {
     const allLoops = getLoops(loopMultipleBP);
     expect(allLoops.totalLoops).toEqual(11);
-    expect(allLoops.loops[0]).toEqual('TIMER -> GET-LAST-APPROVAL');
-    expect(allLoops.loops[1]).toEqual('CHECK-LOAN-VALUE-ACTION -> DATES-OPTIONS');
+    expect(allLoops.loops[0]).toEqual('TIMER -> GET-USER');
+    expect(allLoops.loops[1]).toEqual('CHECK-ACCOUNT-ACTION -> SAVE-ADDITIONAL-INFO');
   });
   
 });
