@@ -50,7 +50,7 @@ must have the valid properties 'name', 'description' and 'blueprint_spec' in it.
 ### Number of paths: 4 | Number of loops: 0
 <img src='./public/images/mediumBP.png' alt='Medium BP'/>
 
-### Number of paths: 6 (Counting loop); 3 (Ignoring loop) | Number of loops: 1
+### Number of paths: 8 (Counting loop); 4 (Ignoring loop) | Number of loops: 1
 <img src='./public/images/loopSimpleBP.png' alt='Loop Simple BP'/>
 
 ### Number of paths: 8 (Counting loop); 6 (Ignoring loop) | Number of loops: 1
