@@ -1,6 +1,6 @@
 {
   "name": "@flowbuild/test-core",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Core library with testing functionalities for flowbuild",
   "main": "index.js",
   "scripts": {
