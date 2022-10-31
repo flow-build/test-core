@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/flow-build/test-core/compare/v1.1.0...v1.1.1) (2022-10-31)
+
+
+### Bug Fixes
+
+* adjust steps ids ([12cb01c](https://github.com/flow-build/test-core/commit/12cb01c1e344e80a1801088b9f154b15bca8f008))
+
 ## [1.1.0](https://github.com/flow-build/test-core/compare/v1.0.0...v1.1.0) (2022-09-23)
 
 
