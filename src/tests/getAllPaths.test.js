@@ -10,44 +10,44 @@ const loopMultipleBP = require('../../samples/loopMultipleBP');
 describe('Get All Paths tests with loops', () => {
   test('get all verySimpleBP paths', () => {
     const allPaths = getAllPaths(verySimpleBP);
-    expect(allPaths.totalScenarios).toEqual(1);
-    expect(allPaths.scenarios).toBeDefined();
+    expect(allPaths.totalPaths).toEqual(1);
+    expect(allPaths.paths).toBeDefined();
   });
 
   test('get all simpleBP paths', () => {
     const allPaths = getAllPaths(simpleBP);
-    expect(allPaths.totalScenarios).toEqual(2);
-    expect(allPaths.scenarios).toBeDefined();
+    expect(allPaths.totalPaths).toEqual(2);
+    expect(allPaths.paths).toBeDefined();
   });
 
   test('get all mediumBP paths', () => {
     const allPaths = getAllPaths(mediumBP);
-    expect(allPaths.totalScenarios).toEqual(4);
-    expect(allPaths.scenarios).toBeDefined();
+    expect(allPaths.totalPaths).toEqual(4);
+    expect(allPaths.paths).toBeDefined();
   });
   
   test('get all averageBP paths', () => {
     const allPaths = getAllPaths(averageBP);
-    expect(allPaths.totalScenarios).toEqual(9);
-    expect(allPaths.scenarios).toBeDefined();
+    expect(allPaths.totalPaths).toEqual(9);
+    expect(allPaths.paths).toBeDefined();
   });
   
   test('get all loopSimpleBP paths', () => {
     const allPaths = getAllPaths(loopSimpleBP);
-    expect(allPaths.totalScenarios).toEqual(8);
-    expect(allPaths.scenarios).toBeDefined();
+    expect(allPaths.totalPaths).toEqual(8);
+    expect(allPaths.paths).toBeDefined();
   });
      
   test('get all loopMediumBP paths', () => {
     const allPaths = getAllPaths(loopMediumBP);
-    expect(allPaths.totalScenarios).toEqual(8);
-    expect(allPaths.scenarios).toBeDefined();
+    expect(allPaths.totalPaths).toEqual(8);
+    expect(allPaths.paths).toBeDefined();
   });
    
   test('get all loopMultipleBP paths', () => {
     const allPaths = getAllPaths(loopMultipleBP);
-    expect(allPaths.totalScenarios).toEqual(60);
-    expect(allPaths.scenarios).toBeDefined();
+    expect(allPaths.totalPaths).toEqual(60);
+    expect(allPaths.paths).toBeDefined();
   });
   
 });
@@ -55,44 +55,44 @@ describe('Get All Paths tests with loops', () => {
 describe('Get All Paths tests ignoring loops', () => {
   test('get all verySimpleBP paths', () => {
     const allPaths = getAllPaths(verySimpleBP, true);
-    expect(allPaths.totalScenarios).toEqual(1);
-    expect(allPaths.scenarios).toBeDefined();
+    expect(allPaths.totalPaths).toEqual(1);
+    expect(allPaths.paths).toBeDefined();
   });
 
   test('get all simpleBP paths', () => {
     const allPaths = getAllPaths(simpleBP, true);
-    expect(allPaths.totalScenarios).toEqual(2);
-    expect(allPaths.scenarios).toBeDefined();
+    expect(allPaths.totalPaths).toEqual(2);
+    expect(allPaths.paths).toBeDefined();
   });
 
   test('get all mediumBP paths', () => {
     const allPaths = getAllPaths(mediumBP, true);
-    expect(allPaths.totalScenarios).toEqual(4);
-    expect(allPaths.scenarios).toBeDefined();
+    expect(allPaths.totalPaths).toEqual(4);
+    expect(allPaths.paths).toBeDefined();
   });
   
   test('get all averageBP paths', () => {
     const allPaths = getAllPaths(averageBP, true);
-    expect(allPaths.totalScenarios).toEqual(5);
-    expect(allPaths.scenarios).toBeDefined();
+    expect(allPaths.totalPaths).toEqual(5);
+    expect(allPaths.paths).toBeDefined();
   });
   
   test('get all loopSimpleBP paths', () => {
     const allPaths = getAllPaths(loopSimpleBP, true);
-    expect(allPaths.totalScenarios).toEqual(4);
-    expect(allPaths.scenarios).toBeDefined();
+    expect(allPaths.totalPaths).toEqual(4);
+    expect(allPaths.paths).toBeDefined();
   });
      
   test('get all loopMediumBP paths', () => {
     const allPaths = getAllPaths(loopMediumBP, true);
-    expect(allPaths.totalScenarios).toEqual(6);
-    expect(allPaths.scenarios).toBeDefined();
+    expect(allPaths.totalPaths).toEqual(6);
+    expect(allPaths.paths).toBeDefined();
   });
    
   test('get all loopMultipleBP paths', () => {
     const allPaths = getAllPaths(loopMultipleBP, true);
-    expect(allPaths.totalScenarios).toEqual(5);
-    expect(allPaths.scenarios).toBeDefined();
+    expect(allPaths.totalPaths).toEqual(5);
+    expect(allPaths.paths).toBeDefined();
   });
   
 });
