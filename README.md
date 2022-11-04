@@ -1,6 +1,9 @@
 # test-core
 Core library with testing functionalities for flowbuild
 
+![npm version](https://img.shields.io/npm/v/@flowbuild/test-core) ![language](https://img.shields.io/github/languages/top/flow-build/test-core)
+[![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release) 
+
 ## Installation
 ```
 npm install @flowbuild/test-core

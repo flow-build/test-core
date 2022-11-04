@@ -93,8 +93,8 @@ function getAllPaths(blueprint, ignoreLoops = false) {
   let countPath = 0;
 
   return {
-    totalScenarios: uniqueFinalPaths.length,
-    scenarios: uniqueFinalPaths.map((path) => {
+    totalPaths: uniqueFinalPaths.length,
+    paths: uniqueFinalPaths.map((path) => {
       return {
         id: ++countPath,
         name: `${path[0]}->${path.at(-1)}`,
