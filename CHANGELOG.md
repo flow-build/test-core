@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/flow-build/test-core/compare/v1.1.1...v1.2.0) (2022-11-04)
+
+
+### Features
+
+* rename scenarios to paths ([c063a87](https://github.com/flow-build/test-core/commit/c063a8752e645de1c341bec85ab5b3b49cba95ea))
+
 ## [1.1.1](https://github.com/flow-build/test-core/compare/v1.1.0...v1.1.1) (2022-10-31)
 
 
