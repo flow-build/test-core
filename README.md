@@ -1,8 +1,7 @@
 # test-core
 Core library with testing functionalities for flowbuild
 
-![npm version](https://img.shields.io/npm/v/@flowbuild/test-core) ![language](https://img.shields.io/github/languages/top/flow-build/test-core)
-[![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release) 
+![npm version](https://img.shields.io/npm/v/@flowbuild/test-core) ![language](https://img.shields.io/github/languages/top/flow-build/test-core) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=flow-build_test-core&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=flow-build_test-core) [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release) 
 
 ## Installation
 ```
